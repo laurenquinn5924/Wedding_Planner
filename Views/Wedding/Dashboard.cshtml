@@ -1,0 +1,61 @@
+<a href="/logout">Log Out</a>
+<h1>Welcome to the Wedding Planner  @ViewBag.UserInfo.FirstName !</h1>
+
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+        <tr>
+            <td>Wedding</td>
+            <td>Date of Event</td>
+            <td>Guest(s)</td>
+            <td>Action</td>
+        </tr>
+    </thead>
+
+    @model List<WeddingPlanner.Models.Wedding>
+        @foreach(var w in ViewBag.AllWeddings){
+        <tr>
+            <td><a href="/wedding/@w.WeddingId">@w.WedderOne & @w.WedderTwo</a></td>
+            <td>@w.DateOfEvent.ToString("MMM d, yyyy")</td>
+            <td>@w.RSVPS.Count</td>
+            @if(@w.UserId == @ViewBag.UserInfo.id){
+                <td>
+                    <form action="Delete" method="POST">
+                        <input type="hidden" name="WeddingId" value="@w.WeddingId">
+                        <button class="btn-xs btn-danger" type="submit" name="Delete">Delete</button>
+                    </form>
+                </td>
+            }
+            @{
+                bool goingToWedding = false;
+
+                foreach(var connection in w.RSVPS){
+                    if(ViewBag.UserInfo.id == connection.UserId){
+                        goingToWedding = true;
+                    }
+                }
+
+                if(goingToWedding == true){
+                    <td>
+                        <form action="UnrsvpToWedding" method="POST">
+                            <input type="hidden" name="WeddingId" value="@w.WeddingId">
+                            <button class="btn-xs btn-success" type="submit" name="UNRSVP">Un-RSVP</button>
+                        </form>
+                    </td>
+                }
+                else {
+                    <td>
+                        <form action="rsvpToWedding" method="POST">
+                            <input type="hidden" name="WeddingId" value="@w.WeddingId">
+                            <button class="btn-xs btn-danger" type="submit" name="RSVP">RSVP</button>
+                        </form>
+                    </td>
+                }
+            }
+            
+            
+        </tr>
+        }   
+    
+</table>
+
+<a class="" href="/newwedding"><button>Add New Wedding</button></a>

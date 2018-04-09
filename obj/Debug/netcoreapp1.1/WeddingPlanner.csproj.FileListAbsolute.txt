@@ -1,0 +1,18 @@
+/Users/laurenquinn/Desktop/Dojo/c#/dotnet/WeddingPlanner/bin/Debug/netcoreapp1.1/WeddingPlanner.deps.json
+/Users/laurenquinn/Desktop/Dojo/c#/dotnet/WeddingPlanner/bin/Debug/netcoreapp1.1/WeddingPlanner.runtimeconfig.json
+/Users/laurenquinn/Desktop/Dojo/c#/dotnet/WeddingPlanner/bin/Debug/netcoreapp1.1/WeddingPlanner.runtimeconfig.dev.json
+/Users/laurenquinn/Desktop/Dojo/c#/dotnet/WeddingPlanner/bin/Debug/netcoreapp1.1/WeddingPlanner.dll
+/Users/laurenquinn/Desktop/Dojo/c#/dotnet/WeddingPlanner/bin/Debug/netcoreapp1.1/WeddingPlanner.pdb
+/Users/laurenquinn/Desktop/Dojo/c#/dotnet/WeddingPlanner/obj/Debug/netcoreapp1.1/WeddingPlanner.AssemblyInfo.cs
+/Users/laurenquinn/Desktop/Dojo/c#/dotnet/WeddingPlanner/obj/Debug/netcoreapp1.1/WeddingPlanner.dll
+/Users/laurenquinn/Desktop/Dojo/c#/dotnet/WeddingPlanner/obj/Debug/netcoreapp1.1/WeddingPlanner.pdb
+/Users/laurenquinn/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Dojo/c#/dotnet/WeddingPlanner/bin/Debug/netcoreapp1.1/WeddingPlanner.deps.json
+/Users/laurenquinn/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Dojo/c#/dotnet/WeddingPlanner/bin/Debug/netcoreapp1.1/WeddingPlanner.runtimeconfig.json
+/Users/laurenquinn/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Dojo/c#/dotnet/WeddingPlanner/bin/Debug/netcoreapp1.1/WeddingPlanner.runtimeconfig.dev.json
+/Users/laurenquinn/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Dojo/c#/dotnet/WeddingPlanner/bin/Debug/netcoreapp1.1/WeddingPlanner.dll
+/Users/laurenquinn/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Dojo/c#/dotnet/WeddingPlanner/bin/Debug/netcoreapp1.1/WeddingPlanner.pdb
+/Users/laurenquinn/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Dojo/c#/dotnet/WeddingPlanner/obj/Debug/netcoreapp1.1/WeddingPlanner.csproj.CoreCompileInputs.cache
+/Users/laurenquinn/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Dojo/c#/dotnet/WeddingPlanner/obj/Debug/netcoreapp1.1/WeddingPlanner.AssemblyInfoInputs.cache
+/Users/laurenquinn/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Dojo/c#/dotnet/WeddingPlanner/obj/Debug/netcoreapp1.1/WeddingPlanner.AssemblyInfo.cs
+/Users/laurenquinn/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Dojo/c#/dotnet/WeddingPlanner/obj/Debug/netcoreapp1.1/WeddingPlanner.dll
+/Users/laurenquinn/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Dojo/c#/dotnet/WeddingPlanner/obj/Debug/netcoreapp1.1/WeddingPlanner.pdb
