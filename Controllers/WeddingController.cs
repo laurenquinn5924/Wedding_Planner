@@ -40,7 +40,7 @@ namespace WeddingPlanner.Controllers
                 return RedirectToAction("Index", "Home");
             }
             User user = _context.users.Where(u => u.id == HttpContext.Session.GetInt32("id")).FirstOrDefault();
-            // FirtsOrdDefault means pull first value that matches what I'm asking for or the default value
+            // FirtsOrDefault means pull first value that matches what I'm asking for or the default value
             ViewBag.UserInfo = user;
 
          

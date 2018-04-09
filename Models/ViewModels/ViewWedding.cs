@@ -15,7 +15,6 @@ namespace WeddingPlanner.Models
     [MinLength(2)]
     public string WedderTwo { get; set; }
 
-    
     [Required]
     [Display(Name = "Date of Wedding")]
     [MyDate(ErrorMessage = "Date must be in Future")]
@@ -26,7 +25,6 @@ namespace WeddingPlanner.Models
     [MinLength(2)]
     public string Address { get; set; }
     }
-
     public class MyDateAttribute : ValidationAttribute
     {
         public override bool IsValid(object value)
